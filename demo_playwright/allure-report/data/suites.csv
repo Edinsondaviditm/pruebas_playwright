@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 08 17:14:27 COT 2021","Wed Sep 08 17:14:33 COT 2021","5879","","test\foo.spec.ts","","","","test success",""
+"failed","Wed Sep 08 17:14:19 COT 2021","Wed Sep 08 17:14:25 COT 2021","6482","","test\foo.spec.ts","","","","test failed",""

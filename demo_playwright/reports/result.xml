@@ -1,0 +1,169 @@
+<testsuites id="" name="" tests="6" failures="3" skipped="0" errors="0" time="66.02">
+<testsuite name="test\foo.spec.ts" timestamp="1632343368044" hostname="" tests="2" failures="1" skipped="0" time="30.184" errors="0">
+<testcase name="test failed" classname="[Chrome_Stable] › test\foo.spec.ts:3:1 › test failed" time="19.147">
+<failure message="foo.spec.ts:3:1 test failed" type="FAILURE">
+  [Chrome_Stable] › test\foo.spec.ts:3:1 › test failed =============================================
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 3
+    Received array:  [{"_guid": "handle@4fc78829b5e982d5e2c7143877df9730", "_type": "ElementHandle"}, {"_guid": "handle@bfdbb71e31eb310dfacf1c0948c32f29", "_type": "ElementHandle"}, {"_guid": "handle@d2825730f4c3fa255c08a000c2a3cc82", "_type": "ElementHandle"}]
+
+      34 |   await page.click('#shopping_cart_container');
+      35 |  
+    > 36 |   expect(await page.$$('.cart_item')).toHaveLength(2);
+         |                                       ^
+      37 |   
+      38 | })
+      39 |
+
+        at C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\test\foo.spec.ts:36:39
+        at WorkerRunner._runTestWithBeforeHooks (C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\node_modules\@playwright\test\lib\test\workerRunner.js:426:7)
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 3
+    Received array:  [{"_guid": "handle@a82e19359fe711fa046f1ed9c35ab297", "_type": "ElementHandle"}, {"_guid": "handle@fadd46a8a6d804748dca1a5659a7ffa1", "_type": "ElementHandle"}, {"_guid": "handle@282bf9d510402d5575a8a4892a4b0454", "_type": "ElementHandle"}]
+
+      34 |   await page.click('#shopping_cart_container');
+      35 |  
+    > 36 |   expect(await page.$$('.cart_item')).toHaveLength(2);
+         |                                       ^
+      37 |   
+      38 | })
+      39 |
+
+        at C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\test\foo.spec.ts:36:39
+        at WorkerRunner._runTestWithBeforeHooks (C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\node_modules\@playwright\test\lib\test\workerRunner.js:426:7)
+
+</failure>
+</testcase>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Chrome-Stable\test-failed-1.png]]
+</system-out>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Chrome-Stable-retry1\7a0fcef501d8e51f21272344896939a6.webm]]
+</system-out>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Chrome-Stable-retry1\test-failed-1.png]]
+</system-out>
+<testcase name="test success" classname="[Chrome_Stable] › test\foo.spec.ts:40:1 › test success" time="11.037">
+</testcase>
+</testsuite>
+<testsuite name="test\foo.spec.ts" timestamp="1632343368044" hostname="" tests="2" failures="1" skipped="0" time="43.88" errors="0">
+<testcase name="test failed" classname="[Desktop_Safari] › test\foo.spec.ts:3:1 › test failed" time="28.899">
+<failure message="foo.spec.ts:3:1 test failed" type="FAILURE">
+  [Desktop_Safari] › test\foo.spec.ts:3:1 › test failed ============================================
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 3
+    Received array:  [{"_guid": "handle@f7b85a32f2a7b23471ea1cefa01fa02e", "_type": "ElementHandle"}, {"_guid": "handle@3f60fa444203d2651647a09220fa23ca", "_type": "ElementHandle"}, {"_guid": "handle@d24e9f73009d85f38e4b335d0ddf864c", "_type": "ElementHandle"}]
+
+      34 |   await page.click('#shopping_cart_container');
+      35 |  
+    > 36 |   expect(await page.$$('.cart_item')).toHaveLength(2);
+         |                                       ^
+      37 |   
+      38 | })
+      39 |
+
+        at C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\test\foo.spec.ts:36:39
+        at WorkerRunner._runTestWithBeforeHooks (C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\node_modules\@playwright\test\lib\test\workerRunner.js:426:7)
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 3
+    Received array:  [{"_guid": "handle@ca4aaf95b0cb676024f0ba0f8164fc24", "_type": "ElementHandle"}, {"_guid": "handle@1673e7568ffa5f3f0d324d9cab6b8a20", "_type": "ElementHandle"}, {"_guid": "handle@7a7e09d2c8582332083f75bef460315c", "_type": "ElementHandle"}]
+
+      34 |   await page.click('#shopping_cart_container');
+      35 |  
+    > 36 |   expect(await page.$$('.cart_item')).toHaveLength(2);
+         |                                       ^
+      37 |   
+      38 | })
+      39 |
+
+        at C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\test\foo.spec.ts:36:39
+        at WorkerRunner._runTestWithBeforeHooks (C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\node_modules\@playwright\test\lib\test\workerRunner.js:426:7)
+
+</failure>
+</testcase>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Desktop-Safari\test-failed-1.png]]
+</system-out>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Desktop-Safari-retry1\131e3abc1a793d6b93fb32d508a82a63.webm]]
+</system-out>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Desktop-Safari-retry1\test-failed-1.png]]
+</system-out>
+<testcase name="test success" classname="[Desktop_Safari] › test\foo.spec.ts:40:1 › test success" time="14.981">
+</testcase>
+</testsuite>
+<testsuite name="test\foo.spec.ts" timestamp="1632343368044" hostname="" tests="2" failures="1" skipped="0" time="45.001" errors="0">
+<testcase name="test failed" classname="[Desktop_Firefox] › test\foo.spec.ts:3:1 › test failed" time="32.189">
+<failure message="foo.spec.ts:3:1 test failed" type="FAILURE">
+  [Desktop_Firefox] › test\foo.spec.ts:3:1 › test failed ===========================================
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 3
+    Received array:  [{"_guid": "handle@a29332d671b485a378df8fc710d6842f", "_type": "ElementHandle"}, {"_guid": "handle@2db3f411f3728dcb39b072f97d0a4478", "_type": "ElementHandle"}, {"_guid": "handle@06e6df6ea497ef90356d88612fa9fb09", "_type": "ElementHandle"}]
+
+      34 |   await page.click('#shopping_cart_container');
+      35 |  
+    > 36 |   expect(await page.$$('.cart_item')).toHaveLength(2);
+         |                                       ^
+      37 |   
+      38 | })
+      39 |
+
+        at C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\test\foo.spec.ts:36:39
+        at WorkerRunner._runTestWithBeforeHooks (C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\node_modules\@playwright\test\lib\test\workerRunner.js:426:7)
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 3
+    Received array:  [{"_guid": "handle@3dc1765e05275cda6823449d4b6d862d", "_type": "ElementHandle"}, {"_guid": "handle@b937224d95f4da4fa0c843cf2992888c", "_type": "ElementHandle"}, {"_guid": "handle@aaec7dba58ba0196198198a28982cb5f", "_type": "ElementHandle"}]
+
+      34 |   await page.click('#shopping_cart_container');
+      35 |  
+    > 36 |   expect(await page.$$('.cart_item')).toHaveLength(2);
+         |                                       ^
+      37 |   
+      38 | })
+      39 |
+
+        at C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\test\foo.spec.ts:36:39
+        at runNextTicks (internal/process/task_queues.js:58:5)
+        at processImmediate (internal/timers.js:434:9)
+        at WorkerRunner._runTestWithBeforeHooks (C:\Users\edrendon\Desktop\Desarrollos\AcceptanceTest\demo_playwright\node_modules\@playwright\test\lib\test\workerRunner.js:426:7)
+
+</failure>
+</testcase>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Desktop-Firefox\test-failed-1.png]]
+</system-out>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Desktop-Firefox-retry1\c48b1375-3da1-400b-968f-10695e87efc7.webm]]
+</system-out>
+<system-out>
+[[ATTACHMENT|test-results\test-foo-test-failed-Desktop-Firefox-retry1\test-failed-1.png]]
+</system-out>
+<testcase name="test success" classname="[Desktop_Firefox] › test\foo.spec.ts:40:1 › test success" time="12.812">
+</testcase>
+</testsuite>
+</testsuites>

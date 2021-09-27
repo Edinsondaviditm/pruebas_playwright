@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test\\foo.spec.ts",
+    "children" : [ {
+      "name" : "test failed",
+      "uid" : "84ec75897b82ce68",
+      "parentUid" : "2036737a803fb8b574db0d1de7d6ebe9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631139259370,
+        "stop" : 1631139265852,
+        "duration" : 6482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test success",
+      "uid" : "a86e34d0bbdb79bd",
+      "parentUid" : "2036737a803fb8b574db0d1de7d6ebe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631139267438,
+        "stop" : 1631139273317,
+        "duration" : 5879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2036737a803fb8b574db0d1de7d6ebe9"
+  } ]
+}

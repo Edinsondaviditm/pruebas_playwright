@@ -1,0 +1,17 @@
+{
+  "name": "demo_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "acceptancetest": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.14.1",
+    "allure-playwright": "^2.0.0-beta.13",
+    "playwright": "^1.14.1"
+  }
+}

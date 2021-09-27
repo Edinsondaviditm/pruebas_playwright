@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toHaveLength(expected)\n\nExpected length: 2\nReceived length: 3\nReceived array:  [{\"_guid\": \"handle@a748fbae3c71b3de3d1bceaa0fd60bf8\", \"_type\": \"ElementHandle\"}, {\"_guid\": \"handle@c86dfc853a3da0a5ade81e5eb1d68873\", \"_type\": \"ElementHandle\"}, {\"_guid\": \"handle@90effc2b23c75bfc1c6c79258198ace3\", \"_type\": \"ElementHandle\"}]",
+      "children" : [ {
+        "name" : "test failed",
+        "uid" : "84ec75897b82ce68",
+        "parentUid" : "fae9ae70ad1374397b30ffa5dbeab6e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631139259370,
+          "stop" : 1631139265852,
+          "duration" : 6482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fae9ae70ad1374397b30ffa5dbeab6e7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
